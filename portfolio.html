@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>It's Jon Kaplan</title>
+		<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="responsiveslides.min.js"></script>
+		
+		<script>
+  			$(function() {
+    			$(".rslides").responsiveSlides({
+    				auto: true,
+    				speed: 1200,
+    				timeout: 3000
+    			});
+ 			});
+		</script>
+		
+		<style>
+		@media (max-width: 600px) {
+  		.menu li {
+    		display: block;
+  			}
+		}
+		@media (max-width: 700px) {
+  		.rslides li img:first-child {
+    		width: 100%;
+    		margin: 0 auto;
+			}
+		</style>
+		
+		
+	</head>
+    
+    <body>
+
+    	<div id="wrapper">
+    		<div id="header">
+    			<div id="name">
+    				<p><i>It's Jon Kaplan!</i></p>
+    			</div>
+    		</div>	
+    			<div id="navigation">
+    				<div class="menu">
+    					<ul>
+    						<li><a href="homepage.html">home</a></li>
+    						<li><a href="mypersonalhomepage.html">my personal homepage</a></li>
+    						<li><a href="portfolio.html">portfolio</a></li>
+    					</ul>
+					</div>
+    			</div>
+    		</div>
+    		<div id="content">
+				<div class="title">
+					<p><u>My Portfolio</u></p>
+    			</div>	
+    			<div id="slideshow">
+    			<ul class="rslides">
+  					<li>
+  						<a href="https://www.youtube.com/watch?v=3cw1z-NpRFk">
+  						<img src="img1.jpg" alt="Track Interview">
+    					</a>
+    				</li>
+  					<li>
+  						<a href="https://www.youtube.com/watch?v=kBM5GqONaSI">
+  						<img src="img2.jpg" alt="A Monster in a Can">
+    					</a>
+    				</li>
+  					<li>
+  						<a href="https://www.youtube.com/watch?v=kBM5GqONaSI">
+  						<img style="max-width: 50%" src="img3.jpg" alt="">
+  						</a>
+  					</li>
+				</ul>
+    			</div>
+			</div>
+    		<div id="footer">
+    			<div id="footercontent">
+    				<div class="subtitle">
+    					<p>Contact Me!</p>
+    				</div>
+    				<div id="contact1">
+    					<p><a href="https://www.facebook.com/jonathan.kaplan.5680?fref=ts">Facebook</a></p>
+    				</div>
+    				<div id="contact2">
+    					<p><a href="mailto:kaplanj8@tcnj.edu">Email</a></p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+	</body>
+</html>
